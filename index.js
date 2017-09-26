@@ -27,7 +27,7 @@ function prependKitten(){
 }
 
 function removeLastKitten(){
+  //o primeiro número do slice é onde o corte se inicia, e o último número é o elemento que será cortado.
   var sliced = kittens.slice(0, 2);
   return sliced;
-
 }
